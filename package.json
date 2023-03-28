@@ -5,7 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon backend/server.js"
+    "start": "node server.js",
+    "server":"nodemon server.js",
+    "client":"npm start --prefix ./client",
+    "dev":"concurrently \"npm start\" \"npm run client\""
+
   },
   "author": "Ritesh Gangwar",
   "license": "ISC",
