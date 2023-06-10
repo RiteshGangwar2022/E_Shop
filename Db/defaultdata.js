@@ -6,7 +6,7 @@ const Defaultdata=async()=>{
 
     try{
         // to delete extra data from the database  
-        await products.deleteMany({});
+       // await products.deleteMany({});
 
         //to insert data into database
        await products.insertMany(productsdata);
