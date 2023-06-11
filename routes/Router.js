@@ -14,6 +14,7 @@ router.get("/getproducts", async (req, res) => {
         const data = await products.find();
         //sending data to server with status code(200==success)
         res.status(200).json(data);
+        //console.log(data)
 
     }
     catch (err) {
