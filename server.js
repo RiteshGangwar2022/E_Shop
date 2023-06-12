@@ -22,10 +22,7 @@ app.use(express.json());
 app.use(cookieParser(""));//it is used to to parse the created cookie data
 app.use(cors());
 
-app.get("/",(req,res)=>{
-     res.setHeader("Access-Control-Allow-Credentials","true");
-      res.send("backend is running");
-})
+
 
 //we are creating another Router file so that server.js remain simple and , we will write all our api inside the Router to fetch data on frontend
 app.use(router);
