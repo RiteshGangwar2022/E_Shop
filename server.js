@@ -37,11 +37,11 @@ const Deafaultdata=require("./Db/defaultdata")
 
 
 //for deployment
-/*app.use(express.static(path.join(__dirname, "./client/build")))
+app.use(express.static(path.join(__dirname, "./client/build")))
 app.get("*",(req,res)=>{
     res.sendFile(path.join(__dirname, "./client/build/index.html"))
 })
-*/
+
 
 
 //getting port from env file
