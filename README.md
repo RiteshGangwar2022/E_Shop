@@ -1,1 +1,5 @@
-# Amazon_clone
+# E_Shop![Screenshot (1079)](https://github.com/RiteshGangwar2022/E_Shop/assets/116111183/f78acd10-ffd1-4ae5-872c-e1afb541ebf5)
+![Screenshot (1080)](https://github.com/RiteshGangwar2022/E_Shop/assets/116111183/26495c27-5359-4e1c-8aa6-93e8455ce462)
+![Screenshot (1081)](https://github.com/RiteshGangwar2022/E_Shop/assets/116111183/07c420bf-1531-4f2f-8bd3-5877bde04a97)
+![Screenshot (1082)](https://github.com/RiteshGangwar2022/E_Shop/assets/116111183/e71b2adc-5aa2-4257-b011-f3a30d847d2f)
+![Screenshot (1083)](https://github.com/RiteshGangwar2022/E_Shop/assets/116111183/a7d4a409-6622-4695-93eb-a9174422c9ae)
