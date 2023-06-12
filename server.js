@@ -43,6 +43,9 @@ app.get("*",(req,res)=>{
 })
 */
 
+module.exports = (req, res) => {
+  res.status(404).json({ message: 'Not Found' });
+};
 
 //getting port from env file
 const port=process.env.PORT;
