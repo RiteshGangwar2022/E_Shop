@@ -5,7 +5,7 @@ const path=require("path");//to get static pages path for deployment
 const router=require("./routes/Router")
 const dotenv=require("dotenv");
 const cookieParser=require("cookie-parser"); // we are using cookie parser to parse cookie data on frontend
-import { fileURLToPath } from "url";
+
 //we need to include env file only in serverjs 
 dotenv.config();
 
@@ -29,16 +29,14 @@ app.use(router);
 const products=require("./Db/productdata");
 const Deafaultdata=require("./Db/defaultdata")
 
-const __filename=fileURLToPath(import.meta.url);
-const __dirname=path.dirname(__filename);
 
 
 //for deployment
-app.use(express.static(path.join(__dirname, "./client/build")))
+/*app.use(express.static(path.join(__dirname, "./client/build")))
 app.get("*",(req,res)=>{
     res.sendFile(path.join(__dirname, "./client/build/index.html"))
 })
-
+*/
 
 
 //getting port from env file
