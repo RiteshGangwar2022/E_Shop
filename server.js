@@ -21,11 +21,7 @@ app.use(cookieParser());
 app.use(cors());
 
 
-//for deployment
-/app.use(express.static(path.join(__dirname, "./client/build")))
-app.get("*",(req,res)=>{
-    res.sendFile(path.join(__dirname, "./client/build/index.html"))
-})
+
 
 // User routes
 app.use('/api/user', userRoutes);
@@ -41,4 +37,9 @@ app.listen(port, () => {
   console.log("server is running on port ");
 });
 
+//for deployment
+/app.use(express.static(path.join(__dirname, "./client/build")))
+app.get("*",(req,res)=>{
+    res.sendFile(path.join(__dirname, "./client/build/index.html"))
+})
 
